@@ -1,0 +1,4 @@
+1) ServiceResult is not getting casted to ImmunizationHistoryServiceResult
+-> TestXmlSerializer class is working fine, but the same thing is creating problems in TestCharmResult class
+
+--> Perhaps problems in deserialization

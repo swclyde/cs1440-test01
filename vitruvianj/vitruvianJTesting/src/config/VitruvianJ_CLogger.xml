@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration>
+        <appender name="VitruvianJ_CLogger" class="vitruvianJ.logging.JFileAppender">
+        </appender>                             
+        <root>
+                <level value="debug" />
+                <appender-ref ref="VitruvianJ_CLogger" />
+        </root>        
+</log4j:configuration>

@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<object type="common.ppServiceResult.NbsSampleCardServiceResult">
+  <property name="NbsSampleList">
+    <item type="common.ppServiceResult.NbsSample">
+      <property encoding="W3C" name="NbsNumber" value="592A653" />
+      <property encoding="W3C" name="MothersState" value="UT" />
+      <property isnull="True" name="Birthdate" />
+      <property encoding="W3C" name="SpecimenType" value="FIRST" />
+      <property encoding="W3C" name="RejectReason" value="NONE" />
+      <property isnull="True" name="ReviewNote" />
+      <property encoding="W3C" name="Transfusion" value="F" />
+      <property isnull="True" name="TransfusionDate" />
+      <property encoding="W3C" name="Tpn" value="F" />
+      <property encoding="W3C" name="PrematureSick" value="F" />
+      <property encoding="W3C" name="TextId" value="F1330041201170" />
+      <property encoding="W3C" name="SampleNumber" value="1435436" />
+      <property isnull="True" name="LoginDate" />
+      <property name="NbsTestList">
+        <item type="common.ppServiceResult.NbsTest">
+          <property encoding="W3C" name="SampleNumber" value="1435436" />
+          <property encoding="W3C" name="TestNumber" value="4023727" />
+          <property encoding="W3C" name="Analysis" value="CAH" />
+          <property encoding="W3C" name="ReportedName" value="Congenital Adrenal Hyperplasia" />
+          <property isnull="True" name="AnalysisLoincCode" />
+          <property isnull="True" name="AnalysisLoincDesc" />
+          <property isnull="True" name="AnalysisLoincCodeSet" />
+          <property encoding="W3C" name="TestStatus" value="A" />
+          <property isnull="True" name="RptTestComment" />
+          <property isnull="True" name="DateReviewed" />
+          <property name="NbsTestResultList">
+            <item type="common.ppServiceResult.NbsTestResult">
+              <property isnull="True" name="Result" />
+              <property isnull="True" name="ResultStatus" />
+              <property isnull="True" name="SampleNumber" />
+              <property isnull="True" name="TestNumber" />
+              <property isnull="True" name="Analysis" />
+              <property isnull="True" name="ResultName" />
+              <property isnull="True" name="ResultUnits" />
+              <property isnull="True" name="InSpec" />
+              <property isnull="True" name="ReferenceRange" />
+              <property isnull="True" name="RefRangeUnits" />
+              <property isnull="True" name="ResultLoincCode" />
+              <property isnull="True" name="ResultLoincDesc" />
+              <property isnull="True" name="ResultLoincCodeSet" />
+              <property isnull="True" name="ResultSnomedCode" />
+              <property isnull="True" name="ResultSnomedDesc" />
+              <property isnull="True" name="ResultSnomedCodeSet" />
+              <property isnull="True" name="ResultEnteredOn" />
+            </item>
+            <item type="common.ppServiceResult.NbsTestResult">
+              <property isnull="True" name="Result" />
+              <property isnull="True" name="ResultStatus" />
+              <property isnull="True" name="SampleNumber" />
+              <property isnull="True" name="TestNumber" />
+              <property isnull="True" name="Analysis" />
+              <property isnull="True" name="ResultName" />
+              <property isnull="True" name="ResultUnits" />
+              <property isnull="True" name="InSpec" />
+              <property isnull="True" name="ReferenceRange" />
+              <property isnull="True" name="RefRangeUnits" />
+              <property isnull="True" name="ResultLoincCode" />
+              <property isnull="True" name="ResultLoincDesc" />
+              <property isnull="True" name="ResultLoincCodeSet" />
+              <property isnull="True" name="ResultSnomedCode" />
+              <property isnull="True" name="ResultSnomedDesc" />
+              <property isnull="True" name="ResultSnomedCodeSet" />
+              <property isnull="True" name="ResultEnteredOn" />
+            </item>
+            <item type="common.ppServiceResult.NbsTestResult">
+              <property isnull="True" name="Result" />
+              <property isnull="True" name="ResultStatus" />
+              <property isnull="True" name="SampleNumber" />
+              <property isnull="True" name="TestNumber" />
+              <property isnull="True" name="Analysis" />
+              <property isnull="True" name="ResultName" />
+              <property isnull="True" name="ResultUnits" />
+              <property isnull="True" name="InSpec" />
+              <property isnull="True" name="ReferenceRange" />
+              <property isnull="True" name="RefRangeUnits" />
+              <property isnull="True" name="ResultLoincCode" />
+              <property isnull="True" name="ResultLoincDesc" />
+              <property isnull="True" name="ResultLoincCodeSet" />
+              <property isnull="True" name="ResultSnomedCode" />
+              <property isnull="True" name="ResultSnomedDesc" />
+              <property isnull="True" name="ResultSnomedCodeSet" />
+              <property isnull="True" name="ResultEnteredOn" />
+            </item>
+            <item type="common.ppServiceResult.NbsTestResult">
+              <property encoding="W3C" name="Result" value="NORMAL" />
+              <property encoding="W3C" name="ResultStatus" value="A" />
+              <property encoding="W3C" name="SampleNumber" value="1435436" />
+              <property encoding="W3C" name="TestNumber" value="4023727" />
+              <property encoding="W3C" name="Analysis" value="CAH" />
+              <property encoding="W3C" name="ResultName" value="Determination" />
+              <property encoding="W3C" name="ResultUnits" value="-" />
+              <property encoding="W3C" name="InSpec" value="T" />
+              <property isnull="True" name="ReferenceRange" />
+              <property encoding="W3C" name="RefRangeUnits" value="NONE" />
+              <property isnull="True" name="ResultLoincCode" />
+              <property isnull="True" name="ResultLoincDesc" />
+              <property isnull="True" name="ResultLoincCodeSet" />
+              <property isnull="True" name="ResultSnomedCode" />
+              <property isnull="True" name="ResultSnomedDesc" />
+              <property isnull="True" name="ResultSnomedCodeSet" />
+              <property isnull="True" name="ResultEnteredOn" />
+            </item>
+            <item type="common.ppServiceResult.NbsTestResult">
+              <property isnull="True" name="Result" />
+              <property isnull="True" name="ResultStatus" />
+              <property isnull="True" name="SampleNumber" />
+              <property isnull="True" name="TestNumber" />
+              <property isnull="True" name="Analysis" />
+              <property isnull="True" name="ResultName" />
+              <property isnull="True" name="ResultUnits" />
+              <property isnull="True" name="InSpec" />
+              <property isnull="True" name="ReferenceRange" />
+              <property isnull="True" name="RefRangeUnits" />
+              <property isnull="True" name="ResultLoincCode" />
+              <property isnull="True" name="ResultLoincDesc" />
+              <property isnull="True" name="ResultLoincCodeSet" />
+              <property isnull="True" name="ResultSnomedCode" />
+              <property isnull="True" name="ResultSnomedDesc" />
+              <property isnull="True" name="ResultSnomedCodeSet" />
+              <property isnull="True" name="ResultEnteredOn" />
+            </item>
+            <item type="common.ppServiceResult.NbsTestResult">
+              <property isnull="True" name="Result" />
+              <property isnull="True" name="ResultStatus" />
+              <property isnull="True" name="SampleNumber" />
+              <property isnull="True" name="TestNumber" />
+              <property isnull="True" name="Analysis" />
+              <property isnull="True" name="ResultName" />
+              <property isnull="True" name="ResultUnits" />
+              <property isnull="True" name="InSpec" />
+              <property isnull="True" name="ReferenceRange" />
+              <property isnull="True" name="RefRangeUnits" />
+              <property isnull="True" name="ResultLoincCode" />
+              <property isnull="True" name="ResultLoincDesc" />
+              <property isnull="True" name="ResultLoincCodeSet" />
+              <property isnull="True" name="ResultSnomedCode" />
+              <property isnull="True" name="ResultSnomedDesc" />
+              <property isnull="True" name="ResultSnomedCodeSet" />
+              <property isnull="True" name="ResultEnteredOn" />
+            </item>
+            <item type="common.ppServiceResult.NbsTestResult">
+              <property isnull="True" name="Result" />
+              <property isnull="True" name="ResultStatus" />
+              <property isnull="True" name="SampleNumber" />
+              <property isnull="True" name="TestNumber" />
+              <property isnull="True" name="Analysis" />
+              <property isnull="True" name="ResultName" />
+              <property isnull="True" name="ResultUnits" />
+              <property isnull="True" name="InSpec" />
+              <property isnull="True" name="ReferenceRange" />
+              <property isnull="True" name="RefRangeUnits" />
+              <property isnull="True" name="ResultLoincCode" />
+              <property isnull="True" name="ResultLoincDesc" />
+              <property isnull="True" name="ResultLoincCodeSet" />
+              <property isnull="True" name="ResultSnomedCode" />
+              <property isnull="True" name="ResultSnomedDesc" />
+              <property isnull="True" name="ResultSnomedCodeSet" />
+              <property isnull="True" name="ResultEnteredOn" />
+            </item>
+          </property>
+        </item>
+      </property>
+    </item>
+  </property>
+  <property encoding="W3C" name="OriginatingProgram" value="NBS" />
+  <property encoding="W3C" name="ResultStatus" value="SUCCESS" />
+  <property isnull="True" name="ErrorMsg" />
+  <property isnull="True" name="ProgramChildID" />
+  <property name="CharmID" value="5384190" />
+  <property name="AlternateIds">
+    <item type="common.ppServiceResult.AlternateID">
+      <property encoding="W3C" name="Value" value="592A653" />
+      <property encoding="W3C" name="Type" value="NBS" />
+    </item>
+  </property>
+</object>

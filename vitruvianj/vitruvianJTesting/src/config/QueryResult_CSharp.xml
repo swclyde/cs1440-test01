@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<object type="QueryResult">
+	<property encoding="W3C" name="ResultStatus" value="SUCCESS"/>
+	<property encoding="W3C" name="ErrorMsg" value=""/>
+	<property isnull="True" name="ProgramChildID"/>
+	<property name="ServiceResultList">
+		<item type="AlertServiceResult">
+			<property name="AlertList">
+				<item type="AlertData">
+					<property encoding="W3C" name="Message" value="%20Child%20legal%20name%20changed"/>
+					<property name="Charmid" value="6243260"/>
+					<property encoding="W3C" name="Alertcategory" value="LegalNameChanged"/>
+					<property encoding="W3C" name="Severity" value="I"/>
+					<property encoding="W3C" name="Origprogram" value="VS"/>
+					<property encoding="W3C" name="Alertdate" value="2012%2F06%2F08"/>
+					<property isnull="True" name="Expirationdate"/>
+				</item>
+			</property>
+			<property name="CharmID" value="6243260"/>
+			<property encoding="W3C" name="OriginatingProgram" value="CHARM%5FCORE"/>
+			<property encoding="W3C" name="ResultStatus" value="SUCCESS"/>
+			<property isnull="True" name="ErrorMsg"/>
+			<property isnull="True" name="ProgramChildID"/>
+			<property name="AlternateIds"/>
+		</item>
+		<item type="HearingScreeningHistoryServiceResult">
+			<property name="TestList">
+				<item type="Test">
+					<property encoding="W3C" name="BabyStage" value="Inpatient"/>
+					<property encoding="W3C" name="Ear" value="LEFT"/>
+					<property encoding="W3C" name="FacilityName" value="DIXIE%20REGIONAL%20MED%2E%20CTR%2E"/>
+					<property encoding="W3C" name="ScreenerName" value="DAVIS%2C%20KATI"/>
+					<property encoding="W3C" name="TestDate" value="2010%2D07%2D30"/>
+					<property encoding="W3C" name="TestResultDescription" value="Refer"/>
+					<property encoding="W3C" name="TestTypeDescription" value="DPOAE"/>
+					<property isnull="True" name="Note"/>
+					<property isnull="True" name="ConfidentialityRequirement"/>
+					<property isnull="True" name="EventDate"/>
+				</item>				
+			</property>
+			<property name="CharmID" value="6243260"/>
+			<property encoding="W3C" name="OriginatingProgram" value="EHDI"/>
+			<property encoding="W3C" name="ResultStatus" value="SUCCESS"/>
+			<property isnull="True" name="ErrorMsg"/>
+			<property isnull="True" name="ProgramChildID"/>
+			<property name="AlternateIds">
+				<item type="AlternateID">
+					<property encoding="W3C" name="Value" value="5D8A2775%2DA1EA%2D4C8E%2D97CB%2D9DC600F12701"/>
+					<property encoding="W3C" name="Type" value="EHDI"/>
+				</item>
+			</property>
+		</item>
+		<item type="HearingScreeningMCRServiceResult">
+			<property name="MostConclusiveResultList">
+				<item type="MostConclusiveResult">
+					<property encoding="W3C" name="TestDate" value="2010%2D07%2D30"/>
+					<property encoding="W3C" name="TestResultDescription" value="Pass"/>
+					<property encoding="W3C" name="TestTypeDescription" value="A%2DABR"/>
+					<property encoding="W3C" name="UsedMethod" value="IP%20Right"/>
+				</item>
+				<item type="MostConclusiveResult">
+					<property encoding="W3C" name="TestDate" value="2010%2D07%2D30"/>
+					<property encoding="W3C" name="TestResultDescription" value="Pass"/>
+					<property encoding="W3C" name="TestTypeDescription" value="A%2DABR"/>
+					<property encoding="W3C" name="UsedMethod" value="IP%20Left"/>
+				</item>
+			</property>
+			<property name="CharmID" value="6243260"/>
+			<property encoding="W3C" name="OriginatingProgram" value="EHDI"/>
+			<property encoding="W3C" name="ResultStatus" value="SUCCESS"/>
+			<property isnull="True" name="ErrorMsg"/>
+			<property isnull="True" name="ProgramChildID"/>
+			<property name="AlternateIds">
+				<item type="AlternateID">
+					<property encoding="W3C" name="Value" value="5D8A2775%2DA1EA%2D4C8E%2D97CB%2D9DC600F12701"/>
+					<property encoding="W3C" name="Type" value="EHDI"/>
+				</item>
+			</property>
+		</item>		
+		<item type="ImmunizationStatusServiceResult">
+			<property name="ImmunizationStatusList">
+				<item type="ImmunizationStatusData">
+					<property encoding="W3C" name="SeriesName" value="DTP%2FDTaP%2FDT"/>
+					<property encoding="W3C" name="NextDueDate" value="2011%2F07%2F31"/>
+					<property encoding="W3C" name="Status" value="OVERDUE"/>
+					<property isnull="True" name="Exempt"/>
+					<property isnull="True" name="Contra"/>
+				</item>					
+			</property>
+			<property encoding="W3C" name="OverallStatus" value="OVERDUE"/>
+			<property name="CharmID" value="6243260"/>
+			<property encoding="W3C" name="OriginatingProgram" value="USIIS"/>
+			<property encoding="W3C" name="ResultStatus" value="SUCCESS"/>
+			<property isnull="True" name="ErrorMsg"/>
+			<property isnull="True" name="ProgramChildID"/>
+			<property name="AlternateIds">
+				<item type="AlternateID">
+					<property encoding="W3C" name="Value" value="16391097"/>
+					<property encoding="W3C" name="Type" value="USIIS"/>
+				</item>
+			</property>
+		</item>
+		<item type="HearingScreeningDispositionServiceResult">
+			<property isnull="True" name="RightDisposition"/>
+			<property isnull="True" name="LeftDisposition"/>
+			<property isnull="True" name="SoundField"/>
+			<property name="CharmID" value="6243260"/>
+			<property encoding="W3C" name="OriginatingProgram" value="EHDI"/>
+			<property encoding="W3C" name="ResultStatus" value="SUCCESS"/>
+			<property isnull="True" name="ErrorMsg"/>
+			<property isnull="True" name="ProgramChildID"/>
+			<property name="AlternateIds">
+				<item type="AlternateID">
+					<property encoding="W3C" name="Value" value="5D8A2775%2DA1EA%2D4C8E%2D97CB%2D9DC600F12701"/>
+					<property encoding="W3C" name="Type" value="EHDI"/>
+				</item>
+			</property>
+		</item>
+		<item type="PersonServiceResult">
+			<property name="Person">
+				<property name="Address"/>
+				<property encoding="W3C" name="Suffix" value=""/>
+				<property isnull="True" name="Charmid"/>
+				<property encoding="W3C" name="Firstname" value="Allyson"/>
+				<property encoding="W3C" name="Lastname" value="Acevedo%20Ayala"/>
+				<property isnull="True" name="BirthWeightOz"/>
+				<property isnull="True" name="Isadult"/>
+				<property isnull="True" name="ChpModifyUtcTimestamp"/>
+				<property encoding="W3C" name="Middlename" value="Alexandria"/>
+				<property isnull="True" name="Roletypeid"/>
+				<property name="Email"/>
+				<property isnull="True" name="Maidenname"/>
+				<property encoding="W3C" name="Gender" value="F"/>
+				<property encoding="W3C" name="Birthdate" value="2010%2F07%2F29"/>
+				<property encoding="W3C" name="StateFileNumber" value="2010%20%2031025"/>
+				<property encoding="W3C" name="Ssn" value="647%2D17%2D5110"/>
+				<property encoding="W3C" name="NewBornScreeningNumber" value="549A148"/>
+				<property isnull="True" name="BirthUtahCountyId"/>
+				<property isnull="True" name="BirthUsStateCode"/>
+				<property isnull="True" name="BirthCountryId"/>
+				<property encoding="W3C" name="BirthCity" value="St%20George"/>
+				<property name="BirthOrder" value="0"/>
+				<property name="BirthWeightGrams" value="3994"/>
+				<property encoding="W3C" name="MothersMaidenName" value="Ayala"/>
+				<property name="DeceasedFlag" value="false"/>
+				<property isnull="True" name="DeceasedDate"/>
+				<property encoding="W3C" name="BirthFacilityCode" value="140"/>
+				<property name="MultipleBirth" value="false"/>
+				<property isnull="True" name="BirthFacility"/>
+				<property isnull="True" name="BirthUtahCounty"/>
+				<property isnull="True" name="BirthCountry"/>
+				<property isnull="True" name="RoleType"/>
+				<property name="Phone"/>
+				<property name="Alias"/>
+				<property name="AssocPerson"/>
+			</property>
+			<property name="CharmID" value="6243260"/>
+			<property encoding="W3C" name="OriginatingProgram" value="VS"/>
+			<property encoding="W3C" name="ResultStatus" value="SUCCESS"/>
+			<property isnull="True" name="ErrorMsg"/>
+			<property isnull="True" name="ProgramChildID"/>
+			<property name="AlternateIds">
+				<item type="AlternateID">
+					<property encoding="W3C" name="Value" value="2010%20%2031025%20"/>
+					<property encoding="W3C" name="Type" value="VS"/>
+				</item>
+			</property>
+		</item>
+	</property>
+	<property name="PersonSR">
+		<property name="Person">
+			<property name="Address">
+				<item type="AddressData">
+					<property encoding="W3C" name="Line1" value="2488%20E%20700%20N"/>
+					<property isnull="True" name="Line2"/>
+					<property encoding="W3C" name="City" value="SAINT%20GEORGE"/>
+					<property encoding="W3C" name="Zip5" value="84790"/>
+					<property encoding="W3C" name="Zip4" value="9065"/>
+					<property encoding="W3C" name="UsStateCode" value="UT"/>
+					<property isnull="True" name="StartDate"/>
+					<property isnull="True" name="EndDate"/>
+					<property isnull="True" name="DoNotReleaseFlag"/>
+					<property isnull="True" name="Note"/>
+					<property isnull="True" name="DeliveryText"/>
+					<property isnull="True" name="Non_us_address_text"/>
+					<property isnull="True" name="Longitude"/>
+					<property isnull="True" name="Latitude"/>
+					<property isnull="True" name="CaseCertifiedFlag"/>
+					<property isnull="True" name="Corrected"/>
+				</item>				
+			</property>
+			<property isnull="True" name="Suffix"/>
+			<property name="Charmid" value="6243260"/>
+			<property encoding="W3C" name="Firstname" value="Allyson"/>
+			<property encoding="W3C" name="Lastname" value="Acevedo%20Ayala"/>
+			<property name="BirthWeightOz" value="141"/>
+			<property name="Isadult" value="false"/>
+			<property name="ChpModifyUtcTimestamp" value="1338068826834"/>
+			<property encoding="W3C" name="Middlename" value="Alexandria"/>
+			<property isnull="True" name="Roletypeid"/>
+			<property name="Email"/>
+			<property isnull="True" name="Maidenname"/>
+			<property encoding="W3C" name="Gender" value="F"/>
+			<property encoding="W3C" name="Birthdate" value="2010%2F07%2F29"/>
+			<property encoding="W3C" name="StateFileNumber" value="2010%20%2031025%20"/>
+			<property encoding="W3C" name="Ssn" value="647175110"/>
+			<property encoding="W3C" name="NewBornScreeningNumber" value="549A148"/>
+			<property name="BirthUtahCountyId" value="27"/>
+			<property isnull="True" name="BirthUsStateCode"/>
+			<property isnull="True" name="BirthCountryId"/>
+			<property encoding="W3C" name="BirthCity" value="St%20George"/>
+			<property name="BirthOrder" value="0"/>
+			<property name="BirthWeightGrams" value="3994"/>
+			<property encoding="W3C" name="MothersMaidenName" value="Ayala"/>
+			<property name="DeceasedFlag" value="false"/>
+			<property isnull="True" name="DeceasedDate"/>
+			<property encoding="W3C" name="BirthFacilityCode" value="140"/>
+			<property name="MultipleBirth" value="false"/>
+			<property encoding="W3C" name="BirthFacility" value="Dixie%20Regional%20Medical%20Center"/>
+			<property encoding="W3C" name="BirthUtahCounty" value="Wasatch"/>
+			<property isnull="True" name="BirthCountry"/>
+			<property encoding="W3C" name="RoleType" value="Child"/>
+			<property name="Phone">				
+				<item type="PhoneData">
+					<property encoding="W3C" name="Phone" value="702%2D409%2D0181"/>
+					<property isnull="True" name="StartDate"/>
+					<property isnull="True" name="EndDate"/>
+					<property isnull="True" name="DoNotReleaseFlag"/>
+					<property isnull="True" name="Note"/>
+				</item>
+			</property>
+			<property name="Alias"/>
+			<property name="AssocPerson">
+				<item type="PersonData">
+					<property name="Address"/>
+					<property isnull="True" name="Suffix"/>
+					<property name="Charmid" value="1169613"/>
+					<property encoding="W3C" name="Firstname" value="Andres"/>
+					<property encoding="W3C" name="Lastname" value="Acevedo"/>
+					<property isnull="True" name="BirthWeightOz"/>
+					<property name="Isadult" value="true"/>
+					<property isnull="True" name="ChpModifyUtcTimestamp"/>
+					<property isnull="True" name="Middlename"/>
+					<property name="Roletypeid" value="2"/>
+					<property name="Email"/>
+					<property isnull="True" name="Maidenname"/>
+					<property encoding="W3C" name="Gender" value="M"/>
+					<property encoding="W3C" name="Birthdate" value="1975%2F01%2F14"/>
+					<property isnull="True" name="StateFileNumber"/>
+					<property isnull="True" name="Ssn"/>
+					<property isnull="True" name="NewBornScreeningNumber"/>
+					<property isnull="True" name="BirthUtahCountyId"/>
+					<property isnull="True" name="BirthUsStateCode"/>
+					<property isnull="True" name="BirthCountryId"/>
+					<property isnull="True" name="BirthCity"/>
+					<property isnull="True" name="BirthOrder"/>
+					<property isnull="True" name="BirthWeightGrams"/>
+					<property isnull="True" name="MothersMaidenName"/>
+					<property isnull="True" name="DeceasedFlag"/>
+					<property isnull="True" name="DeceasedDate"/>
+					<property isnull="True" name="BirthFacilityCode"/>
+					<property isnull="True" name="MultipleBirth"/>
+					<property isnull="True" name="BirthFacility"/>
+					<property isnull="True" name="BirthUtahCounty"/>
+					<property isnull="True" name="BirthCountry"/>
+					<property encoding="W3C" name="RoleType" value="Father"/>
+					<property name="Phone"/>
+					<property name="Alias"/>
+					<property name="AssocPerson"/>
+				</item>				
+			</property>
+		</property>
+		<property name="CharmID" value="6243260"/>
+		<property encoding="W3C" name="OriginatingProgram" value="CHARM%5FCORE"/>
+		<property encoding="W3C" name="ResultStatus" value="SUCCESS"/>
+		<property isnull="True" name="ErrorMsg"/>
+		<property isnull="True" name="ProgramChildID"/>
+		<property name="AlternateIds"/>
+	</property>
+	<property isnull="True" name="UdpClientProfile"/>
+</object>

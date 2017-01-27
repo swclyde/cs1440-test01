@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+	Build coreagent server and client
+-->
+
+<project name="VJFramework"   default="all" basedir="../../">
+	
+	<property file="ant.properties"/>
+		
+	<property name="src" value="${srcDir}"/>	
+	<property name="build.classes" value="${buildDir}/VJFramework"/>	
+	<property name="lib" value="${libDir}/VJFramework"/>
+	
+	<!-- default target:  -->
+	<target name="all" depends="compile_build_src"/>
+		
+	<!-- create needed folders -->
+	<target name="init" depends="banner">
+	    <delete dir="${build.classes}"/>
+			
+        <mkdir dir="${build.classes}"/>
+        <mkdir dir="${lib}"/>
+    </target>
+	
+	<target name="compile_build_src"  depends="init" description="Compile java classes into the build directory.">
+
+		
+	    <javac srcdir="${src}"
+			    	   classpath="${libDir}/third_party/junit-4.10.jar;
+	    				  ${libDir}/third_party/log4j-1.2.17.jar;
+						  ${libDir}/third_party/xml-apis.jar;"
+		
+	           destdir="${build.classes}"
+	           includes="vitruvianJ/**/*.java"
+	           debug="true" 
+		   debuglevel="lines,vars,source"
+	    />
+		
+	 
+		
+							
+    	<delete file="${lib}/VJFramework.jar"/>
+    	<jar jarfile="${lib}/VJFramework.jar"
+    		basedir="${build.classes}" >
+    		<include name="**/*.class"/>
+    		
+    	</jar>
+    	
+    
+  	</target>
+		
+	<target name="banner">
+        <echo>+---------------------------------------------+</echo>
+        <echo>+           Building VJFramework                +</echo>
+        <echo>+---------------------------------------------+</echo>
+    </target>
+
+
+</project>
+	

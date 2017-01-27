@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><object type="common.data.doNotSerialize.MyAddressData"><property name="Addressid" value="1000"/><property name="Charmid" value="1500"/><property encoding="W3C" name="City" value="city"/><property encoding="W3C" name="Zip" value="zip"/></object>
